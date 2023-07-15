@@ -1,0 +1,10 @@
+name: AnarchyCore
+version: '${project.version}'
+main: ru.sabzip.anarchycore.Main
+api-version: 1.13
+authors: [ sabzip ]
+commands:
+  ac:
+    description: Reload your config.yml
+    usage: /ac reload
+    permission: anarchycore.reload
