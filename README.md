@@ -1,2 +1,6 @@
 # AnarchyCore
-Plugin create for anarchy servers
+
+## Features
+* Prevent use OP and Gamemode
+* Deop on left
+* set Gamemode survival on left
