@@ -3,8 +3,10 @@
 ___
 ## Features
 * Prevent use OP and Gamemode
-* Deop on left
-* set Gamemode survival on left
+* Auto Deop on leave
+* Auto Gamemode Survival on leave
+* Fix Mini Suppressor
+* BedCheck (Check respawn player)
 ___
 ## Config
 <details>
@@ -15,6 +17,18 @@ ___
 # Config #
 ##########
 reload-message: '&f[AnarchyCore] &7- config reloaded!'
+########
+# Misc #
+########
+BedCheck:
+  have: '&aYou have respawn'
+  havent: "&cYou haven't respawn"
+##############
+# PreventLag #
+##############
+MiniSuppressor:
+  enable: true
+  message: "&cYou can't place redstone on the trapdoor"
 ##################
 # Server Protect #
 ##################
