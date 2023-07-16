@@ -16,6 +16,9 @@ public final class Main extends JavaPlugin {
         Logger logger = getLogger();
         logger.info(ChatColor.translateAlternateColorCodes('&' , "&aPlugin enabled!"));
 
+        // illegal
+        getServer().getPluginManager().registerEvents(new ru.sabzip.anarchycore.modules.illegal.PreventPlace(this), this);
+
         // Misc
         getCommand("bed").setExecutor(new ru.sabzip.anarchycore.modules.Misc.BedCheck(this));
 

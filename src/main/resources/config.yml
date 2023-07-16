@@ -2,6 +2,10 @@
 # Config #
 ##########
 reload-message: '&f[AnarchyCore] &7- config reloaded!'
+###########
+# illegal #
+###########
+PreventPlace: true
 ########
 # Misc #
 ########
