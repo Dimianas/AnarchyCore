@@ -3,8 +3,8 @@
 ___
 ## Features
 * Prevent use OP and Gamemode
-* Deop on left
-* set Gamemode survival on left
+* Auto Deop on leave
+* Auto Gamemode Survival on leave
 * Fix Mini Suppressor
 * BedCheck (Check respawn player)
 ___
