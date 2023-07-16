@@ -5,6 +5,8 @@ ___
 * Prevent use OP and Gamemode
 * Deop on left
 * set Gamemode survival on left
+* Fix Mini Suppressor
+* BedCheck (Check respawn player)
 ___
 ## Config
 <details>
