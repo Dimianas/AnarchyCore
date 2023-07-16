@@ -2,7 +2,7 @@ name: AnarchyCore
 version: '${project.version}'
 main: ru.sabzip.anarchycore.Main
 api-version: 1.13
-authors: [ sabzip ]
+authors: [ sabzip. megakrutish ]
 commands:
   ac:
     description: Reload your config.yml
