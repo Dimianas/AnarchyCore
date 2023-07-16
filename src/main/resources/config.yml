@@ -1,0 +1,19 @@
+##########
+# Config #
+##########
+reload-message: '&f[AnarchyCore] &7- config reloaded!'
+##################
+# Server Protect #
+##################
+GameModeLeft: true
+GameModeProtect:
+  enable: true
+  kick-message: '&6You have disconnected from the server'
+  whitelist:
+    - 'sabzip'
+OpLeft: true
+OpProtect:
+  enable: true
+  kick-message: '&6You have disconnected from the server'
+  whitelist:
+    - 'sabzip'
