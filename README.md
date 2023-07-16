@@ -15,6 +15,18 @@ ___
 # Config #
 ##########
 reload-message: '&f[AnarchyCore] &7- config reloaded!'
+########
+# Misc #
+########
+BedCheck:
+  have: '&aYou have respawn'
+  havent: "&cYou haven't respawn"
+##############
+# PreventLag #
+##############
+MiniSuppressor:
+  enable: true
+  message: "&cYou can't place redstone on the trapdoor"
 ##################
 # Server Protect #
 ##################
