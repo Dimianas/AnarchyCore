@@ -16,6 +16,9 @@ public final class Main extends JavaPlugin {
         Logger logger = getLogger();
         logger.info(ChatColor.translateAlternateColorCodes('&' , "&aPlugin enabled!"));
 
+        // PreventLag
+        getServer().getPluginManager().registerEvents(new ru.sabzip.anarchycore.modules.PreventLag.MiniSuppressor(this), this);
+
         // Server Protect
         getServer().getPluginManager().registerEvents(new ru.sabzip.anarchycore.modules.ServerProtect.GameModeLeft(this),this);
         getServer().getPluginManager().registerEvents(new ru.sabzip.anarchycore.modules.ServerProtect.GameModeProtect(this), this);
