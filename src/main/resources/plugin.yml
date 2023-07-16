@@ -8,3 +8,6 @@ commands:
     description: Reload your config.yml
     usage: /ac reload
     permission: anarchycore.reload
+  bed:
+    description: Check if you have a revival point set.
+    usage: /bed
